@@ -77,7 +77,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         int current;
 
         RandomizedQueueIterator(){
-            current = 1;
+            current = 0;
         }
 
         public boolean hasNext(){
